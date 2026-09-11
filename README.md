@@ -15,9 +15,9 @@ Material del taller (slides, demos): repo separado. Acá solo consignas, rúbric
 
 ## Alumnos
 
-1. Leé `CONSIGNA.md` y `FLUJO-ENTREGA.md`.
+1. Leé `CONSIGNA.md` (incluye cómo completar `SPEC.md` / `AI.md`, auth, códigos HTTP y qué es el entregable) y `FLUJO-ENTREGA.md`.
 2. Branch `entrega/<tu-usuario-github>`.
-3. Proyecto en `entregas/<tu-usuario-github>/`.
+3. Proyecto en `entregas/<tu-usuario-github>/` (código + tests + README + SPEC + AI).
 4. PR a `main` → devolución automática en el PR.
 
 ## Docentes

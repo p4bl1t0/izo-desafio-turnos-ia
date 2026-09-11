@@ -26,23 +26,24 @@ cp plantillas/AI.md entregas/<tu-usuario-github>/AI.md
 
 Trabajá **solo** dentro de `entregas/<tu-usuario-github>/`. No modifiques `CONSIGNA.md`, `RUBRICA.md`, `evaluacion/` ni otras entregas.
 
-Estructura mínima:
+Estructura mínima (esto **es** el entregable; ver detalle en `CONSIGNA.md`):
 
 ```text
 entregas/<tu-usuario-github>/
 ├── src/          # o la convención de tu stack
 ├── tests/
-├── README.md     # instalar / testear / correr en < 10 min
-├── SPEC.md
-└── AI.md
+├── README.md     # instalar / testear / (server o URL) en < 10 min
+├── SPEC.md       # decisiones + reglas reescritas
+└── AI.md         # bitácora del proceso con IA
 ```
 
 ## 4. Implementar y verificar
 
-1. Reescribí reglas y decisiones en `SPEC.md` (auth, códigos HTTP).
+1. Reescribí reglas y decisiones en `SPEC.md` (auth, códigos HTTP 403/404 y 409/400).
 2. Implementá la API + tests que cubran CA1–CA6.
-3. Documentá el proceso con IA en `AI.md`.
+3. Documentá el proceso con IA en `AI.md` (durante el trabajo, no al final).
 4. En un checkout limpio de tu carpeta: instalar → `npm test` / equivalente → verde.
+5. README: pasos de install/test; si no hay server local, URL hospedada (Vercel/Render/etc. sirven).
 
 ## 5. Abrir el PR
 
@@ -56,7 +57,7 @@ En GitHub:
 
 1. Abrí un **Pull Request** hacia `main`.
 2. Título sugerido: `Entrega: <tu-nombre> — desafío turnos`.
-3. En la descripción: tu usuario de GitHub y el comando de test.
+3. En la descripción: tu usuario de GitHub, el comando de test y, si aplica, la URL de demo.
 4. **No** marques draft si querés evaluación automática al abrir; o abrí draft mientras trabajás y, al terminar, publicá el PR / pedí re-evaluación con un comentario.
 
 ## 6. Evaluación automática

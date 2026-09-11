@@ -11,7 +11,8 @@ Usá esto antes de abrir (o reabrir) el PR.
 ## Spec y proceso
 
 - [ ] `SPEC.md` reescribe las reglas (no solo copy-paste)
-- [ ] Auth y códigos HTTP quedan decididos y documentados
+- [ ] Auth documentada en `SPEC.md` y `README.md` (p. ej. `X-User-Id` o auth real + cómo testearla)
+- [ ] Códigos HTTP elegidos y consistentes: reserva ajena (403 **o** 404); slot inexistente/ocupado (409 **o** 400)
 - [ ] Fuera de alcance explícito
 - [ ] `AI.md` nombra herramientas, al menos un rechazo o incidente, y verificación
 
@@ -27,7 +28,7 @@ Usá esto antes de abrir (o reabrir) el PR.
 
 ## Verificación local
 
-- [ ] README permite instalar y testear en menos de 10 minutos
+- [ ] README permite instalar y testear en menos de 10 minutos (y server local **o** URL desplegada)
 - [ ] Comando de test documentado y en verde en checkout limpio
 - [ ] Sin secretos en el repo
 - [ ] No tocaste `CONSIGNA.md`, `RUBRICA.md` ni `evaluacion/`
