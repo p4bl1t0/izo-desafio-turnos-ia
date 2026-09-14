@@ -8,6 +8,8 @@ Actividad asincrónica (unas **4–6 horas** a lo largo de una semana). Usá lib
 
 Evaluar si podés **dirigir un proceso con IA** — especificar, contextualizar, planificar, implementar, testear y registrar decisiones — no si programás sin IA. Usar IA es **obligatorio** y se documenta en `AI.md`.
 
+**No declares “listo” sin evidencia:** comando de test en verde + CA1–CA6 ejercitados. El agente puede decir que terminó; vos necesitás la salida del comando en `AI.md` (ver checklist).
+
 ## Escenario
 
 Un consultorio chico quiere un MVP para que pacientes autenticados reserven turnos sobre una agenda de slots. No hace falta UI sofisticada: alcanza una API (UI mínima opcional). El producto se define por las **reglas de negocio**, no por el framework.
@@ -97,7 +99,7 @@ Estos dos archivos son **parte del entregable**, no un apéndice opcional. Part�
 | **Qué va acá** | Herramientas por etapa; preguntas a la spec; plan aprobado; qué delegaste; diffs/ideas que cortaste; tests que agregaste vos (o el agente); incidentes y cómo los detectaste; comandos finales en verde. |
 | **Qué no va** | Reescritura de las reglas de negocio ni contratos HTTP (eso es `SPEC.md`). |
 | **Cuándo** | Andá llenándolo **durante** el trabajo (no una línea el día de la entrega). |
-| **“Listo”** | Se puede **reconstruir** qué hiciste con IA; hay al menos un rechazo o incidente real; figura el comando de verificación final. Entregar código “como si no hubiera IA” con `AI.md` incompleto **no cumple**. |
+| **“Listo”** | Se puede **reconstruir** qué hiciste con IA; hay al menos un rechazo o incidente real; figura el comando de verificación final **con evidencia** (salida breve en verde). Entregar código “como si no hubiera IA” con `AI.md` incompleto **no cumple**. Sin evidencia de tests, **no está listo**. |
 
 ## Restricciones del desafío
 

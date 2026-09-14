@@ -30,6 +30,7 @@ Usá esto antes de abrir (o reabrir) el PR.
 
 - [ ] README permite instalar y testear en menos de 10 minutos (y server local **o** URL desplegada)
 - [ ] Comando de test documentado y en verde en checkout limpio
+- [ ] Evidencia en `AI.md` (comando + resultado; no alcanza “el agente dijo listo”)
 - [ ] Sin secretos en el repo
 - [ ] No tocaste `CONSIGNA.md`, `RUBRICA.md` ni `evaluacion/`
 
