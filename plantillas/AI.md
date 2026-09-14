@@ -1,7 +1,8 @@
 # AI.md
 
 > Bitácora del **proceso con IA**. Completala **durante** el trabajo (no una línea al final).
-> “Listo” = se puede reconstruir qué hiciste, con al menos un rechazo/incidente y el comando final en verde.
+> “Listo” = se puede reconstruir qué hiciste, con al menos un rechazo/incidente y el comando final en verde (**evidencia**).
+> No declares terminado sin pegar o citar la salida del comando de test.
 > Guía completa: `CONSIGNA.md` → “Cómo usar SPEC.md y AI.md”.
 > No pongas acá las reglas de negocio ni los códigos HTTP: eso va en `SPEC.md`.
 
@@ -22,7 +23,9 @@
 - Alucinación o error grave:
 - Cómo lo detecté (test, review, ejecución):
 
-## Verificación final
+## Verificación final (evidencia)
 
-- Comandos corridos:
+- Comandos corridos (ej. `npm test` / `pytest`):
+- Resultado (verde / fallos y qué hiciste):
+- CA1–CA6: ¿ejercitados? (sí/no breve)
 - Qué queda sin cubrir:
