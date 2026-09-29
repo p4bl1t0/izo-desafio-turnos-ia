@@ -8,6 +8,8 @@ Actividad asincrónica (unas **4–6 horas** a lo largo de una semana). Usá lib
 
 Evaluar si podés **dirigir un proceso con IA** — especificar, contextualizar, planificar, implementar, testear y registrar decisiones — no si programás sin IA. Usar IA es **obligatorio** y se documenta en `AI.md`.
 
+**Oficio (del workshop):** el ingeniero **decide y redacta** (objetivo, actores, alcance in/out, reglas, casos límite, CA, restricciones); el agente **ejecuta bajo esa spec**. La spec dada de abajo ya trae esas partes — tu `SPEC.md` las reescribe y cierra lo abierto (auth, HTTP). No borres cupo 3 / 24 h / slot único.
+
 **No declares “listo” sin evidencia:** comando de test en verde + CA1–CA6 ejercitados. El agente puede decir que terminó; vos necesitás la salida del comando en `AI.md` (ver checklist).
 
 ## Escenario

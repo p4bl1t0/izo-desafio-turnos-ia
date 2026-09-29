@@ -1,5 +1,10 @@
 # Notas para el docente
 
+## Alineación con el workshop presencial
+
+- En clase hay una **dinámica sin PC** (≈12 min de la actividad de gastos): duplas redactan las 8 partes de un requerimiento en papel antes de abrir el laptop.
+- El desafío asíncrono asume esa misma tesis: el alumno **decide** en `SPEC.md`; el agente **ejecuta**. La spec dada manda.
+
 ## Repo
 
 - Este repo es solo entregas + consignas.
