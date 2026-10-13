@@ -1,6 +1,8 @@
 # IZO — Desafío turnos (entregas)
 
-Repo de **entregas** del desafío final del workshop *Fundamentos de IA para Desarrolladores*.
+Repo de **entregas** del desafío final del workshop *Desarrollo con Agentes de IA*.
+
+Caso de uso del desafío: **reprogramar un turno** (mismo dominio que cancelar / solicitar en clase).
 
 Material del taller (slides, demos): repo separado. Acá solo consignas, rúbrica y PRs de alumnos.
 

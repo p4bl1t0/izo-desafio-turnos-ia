@@ -10,6 +10,12 @@
 - Este repo es solo entregas + consignas.
 - Alumnos = collaborators (o Classroom mismo repo). **Sin forks** (Automations de Cursor no los soporta).
 
+## Hilo pedagógico (mismo dominio)
+
+1. **Cartas / Demo 1:** cancelar un turno (contexto).
+2. **Actividad en papel:** solicitar un turno.
+3. **Este desafío:** reprogramar un turno (spec dada).
+
 ## Automation de Cursor
 
 - Nombre sugerido: `Evaluador desafío turnos`
@@ -21,7 +27,7 @@
 ## Flujo de corrección humana
 
 1. Leer el comentario del agente.
-2. Si la confianza es baja o el entorno no corrió, rehacer CAs críticos a mano (cupo, conflicto, 24 h).
+2. Si la confianza es baja o el entorno no corrió, rehacer CAs críticos a mano (cupo, reprogramar OK, 24 h, destino ocupado).
 3. Ajustar nota final con `RUBRICA.md`.
 4. Responder en el PR con la nota confirmada (opcional: etiqueta `evaluado`).
 

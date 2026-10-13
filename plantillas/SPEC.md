@@ -1,4 +1,4 @@
-# SPEC.md — Reservas de turnos
+# SPEC.md — Reprogramar un turno
 
 > Completá **todas** las secciones. Esto no es copy-paste de la consigna: son **tus decisiones** + reglas reescritas de forma verificable.
 > Momento: antes/durante la implementación. “Listo” = coincide con los tests y no contradice la spec dada.
@@ -12,13 +12,17 @@
 - Cómo se identifica al usuario en los tests (header, cookie, token de prueba…):
 - Si falta autenticación, ¿qué responde la API? (código HTTP):
 
+## Endpoint de reprogramar
+Método y ruta (ej. `PATCH /api/appointments/:id`, `POST .../reschedule`):
+Body / params (nuevo `slotId`, etc.):
+
 ## Códigos HTTP elegidos
 
 > Elegí **un** código por fila y usalo siempre igual en la API y en los tests.
 
 - Operación sobre reserva ajena (**403** o **404**):
-- Slot inexistente o ya ocupado (**409** o **400**):
-- Validación (pasado, cupo, ventana de cancelación) — indicá el/los códigos que uses:
+- Slot destino inexistente o ya ocupado (**409** o **400**):
+- Validación (pasado, cupo, ventana de 24 h para reprogramar) — indicá el/los códigos que uses:
 
 ## Reglas (reescritas, verificables)
 
@@ -29,6 +33,7 @@
 5.
 6.
 7.
+8.
 
 ## Fuera de alcance (además de lo dado)
 
